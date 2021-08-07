@@ -6,10 +6,10 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        out.println("Enter rectangle length: ");
+        out.println("Enter length: ");
         int length = scanner.nextInt();
 
-        out.println("Enter rectangle width: ");
+        out.println("Enter width: ");
         int width = scanner.nextInt();
 
         Rectangle rectangle = new Rectangle(length, width);
